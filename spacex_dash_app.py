@@ -24,10 +24,10 @@ app.layout = html.Div(children=[html.H1('SpaceX Launch Records Dashboard',
                                 dcc.Dropdown(id='site-dropdown',
                                             options=[
                                                 {'label': 'All Sites', 'value': 'ALL'},
-                                                {'label': 'CCAFS LC-40', 'value': 'site1'},
-                                                {'label': 'CCAFS SLC-40', 'value': 'site2'},
-                                                {'label': 'KFC LC-40', 'value': 'site3'},
-                                                {'label': 'VAFT SLC-4E', 'value': 'site4'}
+                                                {'label': 'CCAFS LC-40', 'value': 'CCAFS LC-40'},
+                                                {'label': 'CCAFS SLC-40', 'value': 'VAFB SLC-4E'},
+                                                {'label': 'KFC LC-40', 'value': 'KSC LC-39A'},
+                                                {'label': 'VAFT SLC-4E', 'value': 'CCAFS SLC-40'}
                                             ],
                                             value='ALL',
                                             placeholder='Select a Launch Site here',
